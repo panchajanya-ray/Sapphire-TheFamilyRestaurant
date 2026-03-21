@@ -1,0 +1,15 @@
+# Eclipse files
+.metadata/
+.settings/
+.project
+.classpath
+.factorypath
+
+# Build folders
+target/
+bin/
+
+# OS files
+Desktop.ini
+thumbs.db
+config.properties
