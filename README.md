@@ -130,10 +130,15 @@ JavaProjectSem1/
 ├── src/main/java/
 │   ├── controller/
 │   │   ├── AdminServlet.java
+│   │   ├── DashboardServlet.java
 │   │   ├── LoginServlet.java
+│   │   ├── OrderServlet.java
+│   │   ├── OrderStatusServlet.java
 │   │   └── SignupServlet.java
 │   │
 │   ├── dao/
+│   │   ├── OrderDAO.java
+│   │   ├── OrderItemDAO.java
 │   │   └── UserDAO.java
 │   │
 │   ├── filter/
@@ -141,13 +146,17 @@ JavaProjectSem1/
 │   │   └── AuthFilter.java
 │   │
 │   ├── model/
+│   │   ├── Order.java
+│   │   ├── OrderItem.java
 │   │   └── User.java
 │   │
 │   └── util/
 │       └── DBConnection.java
 │
 ├── src/main/webapp/
-│   └── index.jsp
+│   ├── dashboard.java
+│   ├── index.jsp
+│   └── orders.jsp
 ```
 
 ---
