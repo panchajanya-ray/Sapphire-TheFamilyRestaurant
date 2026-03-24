@@ -134,6 +134,8 @@ JavaProjectSem1/
 │   │   ├── LoginServlet.java
 │   │   ├── OrderServlet.java
 │   │   ├── OrderStatusServlet.java
+│   │   ├── PaymentResultServlet.java
+│   │   ├── PaymentServlet.java
 │   │   └── SignupServlet.java
 │   │
 │   ├── dao/
@@ -146,6 +148,7 @@ JavaProjectSem1/
 │   │   └── AuthFilter.java
 │   │
 │   ├── model/
+│   │   ├── InvoiceItem.java
 │   │   ├── Order.java
 │   │   ├── OrderItem.java
 │   │   └── User.java
@@ -156,7 +159,11 @@ JavaProjectSem1/
 ├── src/main/webapp/
 │   ├── dashboard.java
 │   ├── index.jsp
-│   └── orders.jsp
+│   |── invoice.jsp
+│   |── orders.jsp
+│   |── paymentStatus.jsp
+│   |── signup.jsp
+│   └── upiPayment.jsp
 ```
 
 ---
