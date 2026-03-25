@@ -132,6 +132,8 @@ JavaProjectSem1/
 │   │   ├── AdminServlet.java
 │   │   ├── DashboardServlet.java
 │   │   ├── LoginServlet.java
+│   │   ├── MenuItemStatusServlet.java
+│   │   ├── MenuServlet.java
 │   │   ├── OrderServlet.java
 │   │   ├── OrderStatusServlet.java
 │   │   ├── PaymentResultServlet.java
@@ -139,6 +141,7 @@ JavaProjectSem1/
 │   │   └── SignupServlet.java
 │   │
 │   ├── dao/
+│   │   ├── MenuItemDAO.java
 │   │   ├── OrderDAO.java
 │   │   ├── OrderItemDAO.java
 │   │   └── UserDAO.java
@@ -149,6 +152,7 @@ JavaProjectSem1/
 │   │
 │   ├── model/
 │   │   ├── InvoiceItem.java
+│   │   ├── MenuItem.java
 │   │   ├── Order.java
 │   │   ├── OrderItem.java
 │   │   └── User.java
@@ -160,6 +164,7 @@ JavaProjectSem1/
 │   ├── dashboard.java
 │   ├── index.jsp
 │   |── invoice.jsp
+│   |── menu.jsp
 │   |── orders.jsp
 │   |── paymentStatus.jsp
 │   |── signup.jsp
