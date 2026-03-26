@@ -349,7 +349,7 @@ Reports Dashboard
 
 ## 👨‍💻 Author
 
-**Panchajanya Ray**
+**Panchajanya Ray** | **Java Developer**
 
 ---
 
