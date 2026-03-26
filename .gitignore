@@ -8,8 +8,9 @@
 # Build folders
 target/
 bin/
+resources/
 
 # OS files
 Desktop.ini
 thumbs.db
-config.properties
+db.properties
