@@ -130,20 +130,26 @@ JavaProjectSem1/
 ├── src/main/java/
 │   ├── controller/
 │   │   ├── AdminServlet.java
+│   │   ├── CancelReservationServlet.java
 │   │   ├── DashboardServlet.java
 │   │   ├── LoginServlet.java
+│   │   ├── LogoutServlet.java
 │   │   ├── MenuItemStatusServlet.java
 │   │   ├── MenuServlet.java
 │   │   ├── OrderServlet.java
 │   │   ├── OrderStatusServlet.java
 │   │   ├── PaymentResultServlet.java
 │   │   ├── PaymentServlet.java
+│   │   ├── ReportServlet.java
+│   │   ├── ReservationServlet.java
 │   │   └── SignupServlet.java
 │   │
 │   ├── dao/
 │   │   ├── MenuItemDAO.java
 │   │   ├── OrderDAO.java
 │   │   ├── OrderItemDAO.java
+│   │   ├── ReportDAO.java
+│   │   ├── ReservationDAO.java
 │   │   └── UserDAO.java
 │   │
 │   ├── filter/
@@ -155,6 +161,7 @@ JavaProjectSem1/
 │   │   ├── MenuItem.java
 │   │   ├── Order.java
 │   │   ├── OrderItem.java
+│   │   ├── Reservation.java
 │   │   └── User.java
 │   │
 │   └── util/
@@ -167,6 +174,8 @@ JavaProjectSem1/
 │   |── menu.jsp
 │   |── orders.jsp
 │   |── paymentStatus.jsp
+│   |── reports.jsp
+│   |── reservations.jsp
 │   |── signup.jsp
 │   └── upiPayment.jsp
 ```
